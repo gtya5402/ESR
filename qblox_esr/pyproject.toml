@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qblox_esr"
+version = "0.0.1"
+description = "Qblox instrument as EPR spectrometer"
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+
+[tool.setuptools]
+packages = ["qblox_esr"]
